@@ -1,0 +1,9 @@
+<h4>Select Node Types</h4>
+<p-multiSelect (onChange)="applyNodeFilter($event)" defaultLabel="Select node types.." [options]="dataService.nodetypes_" [(ngModel)]="selectedNodetypes_">
+</p-multiSelect>
+
+<p-multiSelect (onChange)="applyEdgeFilter($event)" [filter]='false' [options]="dataService.edgetypes_" defaultLabel="Select edge types.." [(ngModel)]="selectedEdgetypes_">
+</p-multiSelect>
+
+<p-multiSelect (onChange)="applyIpaddrFilter($event)" [filter]='false' [options]="dataService.ipaddresses_" defaultLabel="Select IP Addresses.." [(ngModel)]="selectedIpAddresses_">
+</p-multiSelect>

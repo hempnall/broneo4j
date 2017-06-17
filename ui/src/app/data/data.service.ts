@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import {SelectItem} from 'primeng/primeng';
-import '../../dist/js/sigma.min.js';
-import '../../dist/js/sigma.parsers.json.min.js';
+// import '../../dist/js/sigma.min.js';
+// import '../../dist/js/sigma.parsers.json.min.js';
 
 
 declare var sigma: any;

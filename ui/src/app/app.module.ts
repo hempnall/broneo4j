@@ -26,7 +26,7 @@ import { SearchComponent  } from './search/search.component';
     SearchComponent
   ],
   imports: [
-    DataModule,
+   DataModule,
     BrowserModule,
     FormsModule,
     HttpModule,

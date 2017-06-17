@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-
 import { NavBarComponent } from './navbar/navbar.component';
 import { SideBarComponent } from './sidebar/sidebar.component';
 

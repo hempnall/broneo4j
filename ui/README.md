@@ -1,6 +1,6 @@
 # Neo4j User Interface
 
-This is an Angular JS user interface for the Neo4j data. It uses the (sigma)[http://sigmajs.org/] javascript libarary to visualise the graph.
+This is an Angular JS user interface for the Neo4j data. It uses the [sigma](http://sigmajs.org/) javascript libarary to visualise the graph.
 
 # Usage
 

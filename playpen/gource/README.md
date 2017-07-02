@@ -12,7 +12,13 @@ $ git clone <this repo>
 $ cd playpen/gource
 $ make show BROLOGSDIR=/path/to/bro/logs
 ```
+To make a video...
+```
+$ brew install ffmpeg
+$ make video.mp4
+$ open video.mp4
+```
 
 ## TODO://
 
-* convert bro-log timestamps to unix timestampe
+* convert bro-log timestamps to unix timestamps

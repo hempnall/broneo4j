@@ -1,9 +1,13 @@
-<h4>Select Node Types</h4>
-<p-multiSelect (onChange)="applyNodeFilter($event)" defaultLabel="Select node types.." [options]="dataService.nodetypes_" [(ngModel)]="selectedNodetypes_">
-</p-multiSelect>
+<div class="m-1 form-group">
 
-<p-multiSelect (onChange)="applyEdgeFilter($event)" [filter]='false' [options]="dataService.edgetypes_" defaultLabel="Select edge types.." [(ngModel)]="selectedEdgetypes_">
-</p-multiSelect>
+    <h4>Select Node Types</h4>
+    <p-multiSelect autoWidth="false" [style]="{'width':'100%'}" (onChange)=" applyNodeFilter($event) " defaultLabel="Select node types.. " [options]="dataService.nodetypes_ " [(ngModel)]="selectedNodetypes_ ">
+    </p-multiSelect>
 
-<p-multiSelect (onChange)="applyIpaddrFilter($event)" [filter]='false' [options]="dataService.ipaddresses_" defaultLabel="Select IP Addresses.." [(ngModel)]="selectedIpAddresses_">
-</p-multiSelect>
+    <p-multiSelect autoWidth="false " [style]="{ 'width': '100%'}" (onChange)="applyEdgeFilter($event)" [filter]='false' [options]="dataService.edgetypes_" defaultLabel="Select edge types.." [(ngModel)]="selectedEdgetypes_">
+    </p-multiSelect>
+
+    <p-multiSelect autoWidth="false" [style]="{'width':'100%'}" (onChange)=" applyIpaddrFilter($event) " [filter]='false' [options]="dataService.ipaddresses_ " defaultLabel="Select IP Addresses.. " [(ngModel)]="selectedIpAddresses_ ">
+    </p-multiSelect>
+
+</div>

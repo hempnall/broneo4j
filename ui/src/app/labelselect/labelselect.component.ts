@@ -8,7 +8,14 @@ import {PanelModule} from 'primeng/primeng';
 
 @Component({
   selector: 'label-select',
-  templateUrl: './labelselect.component.html'
+  templateUrl: './labelselect.component.html',
+  styles: [
+      `
+      .my-full-width {
+        width:100% !important;
+      }
+      `
+  ]
 })
 export class LabelSelectComponent {
 

@@ -1,0 +1,26 @@
+3395552.766751	10.0.2.15	134.170.189.4	49162	80	GET	go.microsoft.com	/fwlink/?LinkId=121315
+3395552.773522	10.0.2.15	134.170.189.4	49164	80	GET	go.microsoft.com	/fwlink/?LinkId=68928
+3395553.026064	10.0.2.15	23.76.195.70	49166	80	GET	www.microsoft.com	/athome/community/rss.xml
+3395552.936425	10.0.2.15	134.170.189.4	49162	80	GET	go.microsoft.com	/fwlink/?LinkId=44406
+3395553.068785	10.0.2.15	157.55.184.162	49165	80	GET	iegallery.com	/en/ie8slice/default.aspx
+3395554.745359	10.0.2.15	107.14.34.121	49167	80	GET	rss.msnbc.msn.com	/id/3032091/device/rss/rss.xml
+3395554.747270	10.0.2.15	93.184.215.200	49168	80	GET	az307127.vo.msecnd.net	/webslices/ie8?culture=en-us&r=asdf9488
+3395555.156118	10.0.2.15	79.125.20.215	49169	80	GET	feeds.nbcnews.com	/feeds/topstories
+3395563.314779	10.0.2.15	134.170.189.4	49164	80	GET	go.microsoft.com	/fwlink/?LinkId=129794
+3395563.408934	10.0.2.15	134.170.189.4	49162	80	GET	go.microsoft.com	/fwlink/?LinkId=68929
+3395563.549548	10.0.2.15	23.76.195.70	49166	80	GET	www.microsoft.com	/atwork/community/rss.xml
+3395563.568969	10.0.2.15	134.170.189.4	49164	80	GET	go.microsoft.com	/fwlink/?LinkId=129793
+3395563.777655	10.0.2.15	24.143.200.216	49170	80	GET	rssgov.windows.microsoft.com	/usagovrssfeed.rss
+3395563.800044	10.0.2.15	24.143.200.216	49171	80	GET	rssgov.windows.microsoft.com	/usagovrssfeed.rss
+3395582.690434	10.0.2.15	184.29.104.233	49172	80	GET	crl.microsoft.com	/pki/crl/products/microsoftrootcert.crl
+3395587.300964	10.0.2.15	184.29.104.233	49172	80	GET	crl.microsoft.com	/pki/crl/products/MicCodSigPCA_08-31-2010.crl
+3395587.716249	10.0.2.15	93.184.215.200	49173	80	GET	mscrl.microsoft.com	/pki/mscorp/crl/mswww(5).crl
+3395588.157907	10.0.2.15	93.184.215.200	49173	80	GET	mscrl.microsoft.com	/pki/mscorp/crl/mswww(6).crl
+3395588.564323	10.0.2.15	23.54.187.27	49174	80	GET	ocsp.verisign.com	/MFEwTzBNMEswSTAJBgUrDgMCGgUABBTA/gJ4/JkYiJGz8hLpx+GyGre/wAQUDfwd8Kng8Bzn8rITF35vjRV81PYCEAF/d96zvLsjXUTMx9umLnI=
+3395589.064262	10.0.2.15	178.255.83.1	49175	80	GET	ocsp.comodoca.com	/MFIwUDBOMEwwSjAJBgUrDgMCGgUABBRxWv5TeSWHeCg1MYWfQk1vJdDS9AQUG2u9H4pJGJRUN1W0IBftN7l3GH0CEQCLjE++biT2UF13rgNKhJgE
+3395589.466171	10.0.2.15	178.255.83.1	49176	80	GET	ocsp.usertrust.com	/MFEwTzBNMEswSTAJBgUrDgMCGgUABBR8sWZUnKvbRO5iJhat9GV793rVlAQUrb2YejS0Jvf6xCZU7wO94CTLVBoCEG668I95g/qd4bJvlvxumL8=
+3395589.943907	10.0.2.15	184.29.106.113	49177	80	GET	www.download.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/authrootstl.cab
+3395590.760259	10.0.2.15	93.184.215.200	49173	80	GET	mscrl.microsoft.com	/pki/mscorp/crl/MSIT Machine Auth CA 2(1).crl
+3395591.247798	10.0.2.15	108.162.232.197	49178	80	GET	ocsp.msocsp.com	/MFQwUjBQME4wTDAJBgUrDgMCGgUABBSfAP5wz6TZE9AhTecbrorIUEieTwQU3Igt2WxNPQBQM/EVuXj7weahJK8CExkAAAlE5E3bN0hKjHcAAQAACUQ=
+3395591.649134	10.0.2.15	108.162.232.207	49179	80	GET	ocsp2.globalsign.com	/gsorganizationvalg2/MFMwUTBPME0wSzAJBgUrDgMCGgUABBReGXQV/tqUV3SNMRE+s25eR/vhjwQUXUayjcRLdBy77fVztjq3OI91nn4CEhEhGKruU1tjRlGnenJmICuTAQ==
+3395592.066175	10.0.2.15	108.162.232.197	49180	80	GET	ocsp.globalsign.com	/rootr1/MEwwSjBIMEYwRDAJBgUrDgMCGgUABBS3V7W2nAf4FiMTjpDJKg6+MgGqMQQUYHtmGkUNl8qJUC99BM00qP/8/UsCCwQAAAAAAS9O4UUM

@@ -1,0 +1,35 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2017-05-16-17-58-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]
+3395552.766751	Cy9egB438l47OqLYY3	10.0.2.15	49162	134.170.189.4	80	1	GET	go.microsoft.com	/fwlink/?LinkId=121315	-	Windows-RSS-Platform/2.0 (MSIE 8.0; Windows NT 6.1)	0	162	302	Found	-	-	-	(empty)	-	-	-	-	-	FBLCPf47WUSWqTUHmg	text/html
+3395552.773522	CPbtXD2SQKXlEE4xW5	10.0.2.15	49164	134.170.189.4	80	1	GET	go.microsoft.com	/fwlink/?LinkId=68928	-	Windows-RSS-Platform/2.0 (MSIE 8.0; Windows NT 6.1)	0	166	302	Found	-	-	-	(empty)	-	-	-	-	-	FJBfs81LMtuscJXovg	text/html
+3395553.026064	CDG8Sk1n2GYJ3M0bxd	10.0.2.15	49166	23.76.195.70	80	1	GET	www.microsoft.com	/athome/community/rss.xml	-	Windows-RSS-Platform/2.0 (MSIE 8.0; Windows NT 6.1)	0	21316	200	OK	-	-	-	(empty)	-	-	-	-	-	FiKCgH1ewcFDtHqFmi	application/xml
+3395552.936425	Cy9egB438l47OqLYY3	10.0.2.15	49162	134.170.189.4	80	2	GET	go.microsoft.com	/fwlink/?LinkId=44406	-	Windows-RSS-Platform/2.0 (MSIE 8.0; Windows NT 6.1)	0	171	302	Found	-	-	-	(empty)	-	-	-	-	-	Fw26u74c1a93BHD0T	text/html
+3395553.068785	CnBADS3wItO9CAnUsf	10.0.2.15	49165	157.55.184.162	80	1	GET	iegallery.com	/en/ie8slice/default.aspx	-	Windows-RSS-Platform/2.0 (MSIE 8.0; Windows NT 6.1)	0	189	302	Found	-	-	-	(empty)	-	-	-	-	-	FBbOiG6Y7pFZtdNbb	text/html
+3395554.745359	CrQBXc12Cf5JOmHzf	10.0.2.15	49167	107.14.34.121	80	1	GET	rss.msnbc.msn.com	/id/3032091/device/rss/rss.xml	-	Windows-RSS-Platform/2.0 (MSIE 8.0; Windows NT 6.1)	0	0	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	-	-
+3395554.747270	CKogGl1aokW4Hf0dtd	10.0.2.15	49168	93.184.215.200	80	1	GET	az307127.vo.msecnd.net	/webslices/ie8?culture=en-us&r=asdf9488	-	Windows-RSS-Platform/2.0 (MSIE 8.0; Windows NT 6.1)	0	2044	200	OK	-	-	-	(empty)	-	-	-	-	-	FNqWfR3tcHYiLLUnwg	text/html
+3395555.156118	CIxQtEkFU8KhYaIcl	10.0.2.15	49169	79.125.20.215	80	1	GET	feeds.nbcnews.com	/feeds/topstories	-	Windows-RSS-Platform/2.0 (MSIE 8.0; Windows NT 6.1)	0	59838	200	OK	-	-	-	(empty)	-	-	-	-	-	FvOpSV3GrbR3NLGWl	application/xml
+3395563.314779	CPbtXD2SQKXlEE4xW5	10.0.2.15	49164	134.170.189.4	80	2	GET	go.microsoft.com	/fwlink/?LinkId=129794	-	Windows-RSS-Platform/2.0 (MSIE 8.0; Windows NT 6.1)	0	170	302	Found	-	-	-	(empty)	-	-	-	-	-	FrYwXIm7ktVvmqvrg	text/html
+3395563.408934	Cy9egB438l47OqLYY3	10.0.2.15	49162	134.170.189.4	80	3	GET	go.microsoft.com	/fwlink/?LinkId=68929	-	Windows-RSS-Platform/2.0 (MSIE 8.0; Windows NT 6.1)	0	166	302	Found	-	-	-	(empty)	-	-	-	-	-	Fu1MSv1piZusUZQFn1	text/html
+3395563.549548	CDG8Sk1n2GYJ3M0bxd	10.0.2.15	49166	23.76.195.70	80	2	GET	www.microsoft.com	/atwork/community/rss.xml	-	Windows-RSS-Platform/2.0 (MSIE 8.0; Windows NT 6.1)	0	21275	200	OK	-	-	-	(empty)	-	-	-	-	-	FvTvyOLsmcZXycvM	application/xml
+3395563.568969	CPbtXD2SQKXlEE4xW5	10.0.2.15	49164	134.170.189.4	80	3	GET	go.microsoft.com	/fwlink/?LinkId=129793	-	Windows-RSS-Platform/2.0 (MSIE 8.0; Windows NT 6.1)	0	170	302	Found	-	-	-	(empty)	-	-	-	-	-	FEcVNz2J5Mhq9wGS0e	text/html
+3395563.777655	CS6fJt4R18WaKniFT2	10.0.2.15	49170	24.143.200.216	80	1	GET	rssgov.windows.microsoft.com	/usagovrssfeed.rss	-	Windows-RSS-Platform/2.0 (MSIE 8.0; Windows NT 6.1)	0	970	200	OK	-	-	-	(empty)	-	-	-	-	-	F4SzoBLjRWKDXvMv7	application/xml
+3395563.800044	C83b234AS1qmCLQtr8	10.0.2.15	49171	24.143.200.216	80	1	GET	rssgov.windows.microsoft.com	/usagovrssfeed.rss	-	Windows-RSS-Platform/2.0 (MSIE 8.0; Windows NT 6.1)	0	970	200	OK	-	-	-	(empty)	-	-	-	-	-	F7QHys1FmegPfWr5L8	application/xml
+3395582.690434	C3Kxne2kwbBtvpwA3h	10.0.2.15	49172	184.29.104.233	80	1	GET	crl.microsoft.com	/pki/crl/products/microsoftrootcert.crl	-	Microsoft-CryptoAPI/6.1	0	0	304	Not Modified	-	-	-	(empty)	-	-	-	-	-	-	-
+3395587.300964	C3Kxne2kwbBtvpwA3h	10.0.2.15	49172	184.29.104.233	80	2	GET	crl.microsoft.com	/pki/crl/products/MicCodSigPCA_08-31-2010.crl	-	Microsoft-CryptoAPI/6.1	0	0	304	Not Modified	-	-	-	(empty)	-	-	-	-	-	-	-
+3395587.716249	CeElglir5PYbrgMr1	10.0.2.15	49173	93.184.215.200	80	1	GET	mscrl.microsoft.com	/pki/mscorp/crl/mswww(5).crl	-	Microsoft-CryptoAPI/6.1	0	772	200	OK	-	-	-	(empty)	-	-	-	-	-	FZMtUN1MjoOJ63ziEk	-
+3395588.157907	CeElglir5PYbrgMr1	10.0.2.15	49173	93.184.215.200	80	2	GET	mscrl.microsoft.com	/pki/mscorp/crl/mswww(6).crl	-	Microsoft-CryptoAPI/6.1	0	0	304	Not Modified	-	-	-	(empty)	-	-	-	-	-	-	-
+3395588.564323	COCSgC3yf1BmdrlAxa	10.0.2.15	49174	23.54.187.27	80	1	GET	ocsp.verisign.com	/MFEwTzBNMEswSTAJBgUrDgMCGgUABBTA/gJ4/JkYiJGz8hLpx+GyGre/wAQUDfwd8Kng8Bzn8rITF35vjRV81PYCEAF/d96zvLsjXUTMx9umLnI=	-	Microsoft-CryptoAPI/6.1	0	5	200	OK	-	-	-	(empty)	-	-	-	-	-	FXMz6E1H74oftBSPOh	-
+3395589.064262	COAwld33nZAklEcyv1	10.0.2.15	49175	178.255.83.1	80	1	GET	ocsp.comodoca.com	/MFIwUDBOMEwwSjAJBgUrDgMCGgUABBRxWv5TeSWHeCg1MYWfQk1vJdDS9AQUG2u9H4pJGJRUN1W0IBftN7l3GH0CEQCLjE++biT2UF13rgNKhJgE	-	Microsoft-CryptoAPI/6.1	0	5	200	OK	-	-	-	(empty)	-	-	-	-	-	FOrDaD1z1VEMBHM637	-
+3395589.466171	CpHEqB3vhdyPOz9yBa	10.0.2.15	49176	178.255.83.1	80	1	GET	ocsp.usertrust.com	/MFEwTzBNMEswSTAJBgUrDgMCGgUABBR8sWZUnKvbRO5iJhat9GV793rVlAQUrb2YejS0Jvf6xCZU7wO94CTLVBoCEG668I95g/qd4bJvlvxumL8=	-	Microsoft-CryptoAPI/6.1	0	471	200	OK	-	-	-	(empty)	-	-	-	-	-	FWS9iRNxa4KSucvu2	-
+3395589.943907	C9tqxc3kKbfBaFC7gh	10.0.2.15	49177	184.29.106.113	80	1	GET	www.download.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/authrootstl.cab	-	Microsoft-CryptoAPI/6.1	0	0	304	Not Modified	-	-	-	(empty)	-	-	-	-	-	-	-
+3395590.760259	CeElglir5PYbrgMr1	10.0.2.15	49173	93.184.215.200	80	3	GET	mscrl.microsoft.com	/pki/mscorp/crl/MSIT Machine Auth CA 2(1).crl	-	Microsoft-CryptoAPI/6.1	0	0	304	Not Modified	-	-	-	(empty)	-	-	-	-	-	-	-
+3395591.247798	CbnJ9wUiwEH9dGf0e	10.0.2.15	49178	108.162.232.197	80	1	GET	ocsp.msocsp.com	/MFQwUjBQME4wTDAJBgUrDgMCGgUABBSfAP5wz6TZE9AhTecbrorIUEieTwQU3Igt2WxNPQBQM/EVuXj7weahJK8CExkAAAlE5E3bN0hKjHcAAQAACUQ=	-	Microsoft-CryptoAPI/6.1	0	1501	200	OK	-	-	-	(empty)	-	-	-	-	-	FuabdQ2rLr4XuWFKZb	-
+3395591.649134	CN64ia2FYbExleB4ch	10.0.2.15	49179	108.162.232.207	80	1	GET	ocsp2.globalsign.com	/gsorganizationvalg2/MFMwUTBPME0wSzAJBgUrDgMCGgUABBReGXQV/tqUV3SNMRE+s25eR/vhjwQUXUayjcRLdBy77fVztjq3OI91nn4CEhEhGKruU1tjRlGnenJmICuTAQ==	-	Microsoft-CryptoAPI/6.1	0	1499	200	OK	-	-	-	(empty)	-	-	-	-	-	FN58DO1lCCzO0dWxn9	-
+3395592.066175	C2bk3xHfEVt7I04Wd	10.0.2.15	49180	108.162.232.197	80	1	GET	ocsp.globalsign.com	/rootr1/MEwwSjBIMEYwRDAJBgUrDgMCGgUABBS3V7W2nAf4FiMTjpDJKg6+MgGqMQQUYHtmGkUNl8qJUC99BM00qP/8/UsCCwQAAAAAAS9O4UUM	-	Microsoft-CryptoAPI/6.1	0	1508	200	OK	-	-	-	(empty)	-	-	-	-	-	F2WU1q1lQlr5YnqKz1	-
+#close	2017-05-16-17-58-12

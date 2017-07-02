@@ -1,0 +1,32 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2017-05-16-17-58-12
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	set[addr]	set[addr]	set[string]	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+3395552.857673	FBLCPf47WUSWqTUHmg	134.170.189.4	10.0.2.15	Cy9egB438l47OqLYY3	HTTP	0	(empty)	text/html	-	0.000000	-	F	162	162	0	0	F	-	-	-	-	-
+3395552.863053	FJBfs81LMtuscJXovg	134.170.189.4	10.0.2.15	CPbtXD2SQKXlEE4xW5	HTTP	0	(empty)	text/html	-	0.000000	-	F	166	166	0	0	F	-	-	-	-	-
+3395553.045125	FiKCgH1ewcFDtHqFmi	23.76.195.70	10.0.2.15	CDG8Sk1n2GYJ3M0bxd	HTTP	0	(empty)	application/xml	-	0.002597	-	F	21316	-	0	0	F	-	-	-	-	-
+3395553.048867	Fw26u74c1a93BHD0T	134.170.189.4	10.0.2.15	Cy9egB438l47OqLYY3	HTTP	0	(empty)	text/html	-	0.000000	-	F	171	171	0	0	F	-	-	-	-	-
+3395553.149274	FBbOiG6Y7pFZtdNbb	157.55.184.162	10.0.2.15	CnBADS3wItO9CAnUsf	HTTP	0	(empty)	text/html	-	0.000000	-	F	189	189	0	0	F	-	-	-	-	-
+3395553.237464	FfJmxd4RrS20gCUXTc	131.253.34.240	10.0.2.15	Ca3rhR3rxQ6nXMWRk9	SSL	0	X509,MD5,SHA1	-	-	0.000000	-	F	1449	-	0	0	F	-	5c071961bb6e5bf50036ba1dbdef40fe	87f700f9f5b3eda43db9ecbcf1abdcda8c6d1b16	-	-
+3395553.237464	FKkprn1lepg1btyp2d	131.253.34.240	10.0.2.15	Ca3rhR3rxQ6nXMWRk9	SSL	0	X509,MD5,SHA1	-	-	0.000000	-	F	1548	-	0	0	F	-	4e6a8fc99a823c1443aa6deaaec0a678	ef86b413f0fc25ac512b8be9b6ec70f6da341655	-	-
+3395553.237464	FZ1gH2ZPlRGse8erb	131.253.34.240	10.0.2.15	Ca3rhR3rxQ6nXMWRk9	SSL	0	X509,MD5,SHA1	-	-	0.000000	-	F	1285	-	0	0	F	-	f2c3b4ee8e1995d6462c77ca436cd491	992ad44d7dce298de17e6f2f56a7b9caa41db93f	-	-
+3395554.760775	FNqWfR3tcHYiLLUnwg	93.184.215.200	10.0.2.15	CKogGl1aokW4Hf0dtd	HTTP	0	(empty)	text/html	-	0.000000	-	F	2044	2044	0	0	F	-	-	-	-	-
+3395555.297330	FvOpSV3GrbR3NLGWl	79.125.20.215	10.0.2.15	CIxQtEkFU8KhYaIcl	HTTP	0	(empty)	application/xml	-	0.013758	-	F	59838	-	0	0	F	-	-	-	-	-
+3395563.406936	FrYwXIm7ktVvmqvrg	134.170.189.4	10.0.2.15	CPbtXD2SQKXlEE4xW5	HTTP	0	(empty)	text/html	-	0.000000	-	F	170	170	0	0	F	-	-	-	-	-
+3395563.507488	Fu1MSv1piZusUZQFn1	134.170.189.4	10.0.2.15	Cy9egB438l47OqLYY3	HTTP	0	(empty)	text/html	-	0.000000	-	F	166	166	0	0	F	-	-	-	-	-
+3395563.579622	FvTvyOLsmcZXycvM	23.76.195.70	10.0.2.15	CDG8Sk1n2GYJ3M0bxd	HTTP	0	(empty)	application/xml	-	0.003024	-	F	21275	-	0	0	F	-	-	-	-	-
+3395563.658540	FEcVNz2J5Mhq9wGS0e	134.170.189.4	10.0.2.15	CPbtXD2SQKXlEE4xW5	HTTP	0	(empty)	text/html	-	0.000000	-	F	170	170	0	0	F	-	-	-	-	-
+3395563.805254	F4SzoBLjRWKDXvMv7	24.143.200.216	10.0.2.15	CS6fJt4R18WaKniFT2	HTTP	0	(empty)	application/xml	-	0.000000	-	F	970	-	0	0	F	-	-	-	-	-
+3395563.820430	F7QHys1FmegPfWr5L8	24.143.200.216	10.0.2.15	C83b234AS1qmCLQtr8	HTTP	0	(empty)	application/xml	-	0.000000	-	F	970	-	0	0	F	-	-	-	-	-
+3395587.745307	FZMtUN1MjoOJ63ziEk	93.184.215.200	10.0.2.15	CeElglir5PYbrgMr1	HTTP	0	(empty)	-	-	0.000000	-	F	772	772	0	0	F	-	-	-	-	-
+3395588.638315	FXMz6E1H74oftBSPOh	23.54.187.27	10.0.2.15	COCSgC3yf1BmdrlAxa	HTTP	0	(empty)	-	-	0.000000	-	F	5	5	0	0	F	-	-	-	-	-
+3395589.090295	FOrDaD1z1VEMBHM637	178.255.83.1	10.0.2.15	COAwld33nZAklEcyv1	HTTP	0	(empty)	-	-	0.000000	-	F	5	5	0	0	F	-	-	-	-	-
+3395589.497444	FWS9iRNxa4KSucvu2	178.255.83.1	10.0.2.15	CpHEqB3vhdyPOz9yBa	HTTP	0	(empty)	-	-	0.000000	-	F	471	471	0	0	F	-	-	-	-	-
+3395591.268072	FuabdQ2rLr4XuWFKZb	108.162.232.197	10.0.2.15	CbnJ9wUiwEH9dGf0e	HTTP	0	(empty)	-	-	0.000000	-	F	1501	1501	0	0	F	-	-	-	-	-
+3395591.673697	FN58DO1lCCzO0dWxn9	108.162.232.207	10.0.2.15	CN64ia2FYbExleB4ch	HTTP	0	(empty)	-	-	0.000000	-	F	1499	1499	0	0	F	-	-	-	-	-
+3395592.099882	F2WU1q1lQlr5YnqKz1	108.162.232.197	10.0.2.15	C2bk3xHfEVt7I04Wd	HTTP	0	(empty)	-	-	0.000000	-	F	1508	1508	0	0	F	-	-	-	-	-
+#close	2017-05-16-17-58-12

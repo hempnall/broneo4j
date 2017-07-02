@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2017-05-16-17-58-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	session_id	last_alert	established	cert_chain_fuids	client_cert_chain_fuids	subject	issuer	client_subject	client_issuer
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool	vector[string]	vector[string]	string	string	string	string
+3395552.996438	Ca3rhR3rxQ6nXMWRk9	10.0.2.15	49163	131.253.34.240	443	TLSv10	TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA	secp384r1	ieonlinews.microsoft.com	-	-	T	FfJmxd4RrS20gCUXTc,FKkprn1lepg1btyp2d,FZ1gH2ZPlRGse8erb	(empty)	CN=ieonlinews.microsoft.com	CN=MSIT Machine Auth CA 2,DC=redmond,DC=corp,DC=microsoft,DC=com	-	-
+#close	2017-05-16-17-58-12

@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2017-05-16-17-58-12
+#fields	ts	id	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count
+3395553.237464	FfJmxd4RrS20gCUXTc	3	6035C31B0001000039E2	CN=ieonlinews.microsoft.com	CN=MSIT Machine Auth CA 2,DC=redmond,DC=corp,DC=microsoft,DC=com	1359414416.000000	1422486416.000000	rsaEncryption	sha1WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	-	-
+3395553.237464	FKkprn1lepg1btyp2d	3	615DAAD2000600000040	CN=MSIT Machine Auth CA 2,DC=redmond,DC=corp,DC=microsoft,DC=com	CN=Microsoft Internet Authority	1337114455.000000	1463345455.000000	rsaEncryption	sha1WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	T	0
+3395553.237464	FZ1gH2ZPlRGse8erb	3	07276FAE	CN=Microsoft Internet Authority	CN=Baltimore CyberTrust Root,OU=CyberTrust,O=Baltimore,C=IE	1335375696.000000	1587836455.000000	rsaEncryption	sha1WithRSAEncryption	rsa	4096	65537	-	-	-	-	-	T	1
+#close	2017-05-16-17-58-12

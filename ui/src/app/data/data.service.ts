@@ -13,6 +13,8 @@ export class DataService {
     nodetypes_ : SelectItem[] = [];
     edgetypes_ : SelectItem[] = [];
     ipaddresses_ : SelectItem[] = [];
+    starttime_: number;
+    endtime_: number;
 
     setGraph( graph : any ) {
         this.graph_ = graph;
@@ -43,6 +45,8 @@ export class DataService {
 
 
 
+
+
     afterDataLoaded(s) {
 
         function string_to_selectitem(s) : SelectItem {
@@ -55,6 +59,18 @@ export class DataService {
         var nodetypes  = [];
         var edgetypes  = [];
         var ipaddresses  = [];
+
+        s.controller.starttime_ = s.graph.edges().reduce(function(prev, curr) { 
+            let prev_ts = prev.neo4j_data.ts;
+            let curr_ts = curr.neo4j_data.ts;
+            return curr_ts < prev_ts ? curr : prev;
+        }).neo4j_data.ts;
+
+        s.controller.endtime_ = s.graph.edges().reduce(function(prev, curr) {
+            let prev_ts = prev.neo4j_data.ts;
+            let curr_ts = curr.neo4j_data.ts;
+            return curr_ts > prev_ts ?curr : prev;
+        }).neo4j_data.ts;
 
         s.graph.nodes().forEach(function (n) {
             n.neo4j_labels.forEach( n =>  nodetypes[n] = 1  );
@@ -71,6 +87,12 @@ export class DataService {
             e.weight = e.weight > 0.1 ? 0 : 11;
             e.hidden = false;
         });
+
+
+
+        console.log("start time = " + s.controller.starttime_);
+        console.log("end time = " + s.controller.endtime_);
+
 
         s.controller.nodetypes_ = Object.keys(  nodetypes ).map(string_to_selectitem);
         s.controller.edgetypes_ = Object.keys(  edgetypes ).map(string_to_selectitem);

@@ -1,9 +1,9 @@
 noop=
 tab=$(noop)	$(noop)
 space=$(noop) $(noop)
-STD_LOG_HEADERS=id.orig_h	id.resp_h	id.orig_p      	id.resp_p
+STD_LOG_HEADERS=ts	id.orig_h	id.resp_h	id.orig_p      	id.resp_p
 #STD_LOG_PREFIX="$(subst @COLON@,:,@COLON@START_ID\t@COLON@END_ID id.orig_p       id.resp_p)"
-STD_LOG_PREFIX=:START_ID	:END_ID	id.orig_p	id.resp_p
+STD_LOG_PREFIX=ts	:START_ID	:END_ID	id.orig_p	id.resp_p
 DNS_LOG_HEADERS=
 
 %.relationships.headers: $(BRO_LOG_DIR)/%

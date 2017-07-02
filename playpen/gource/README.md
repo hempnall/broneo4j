@@ -19,6 +19,10 @@ $ make video.mp4
 $ open video.mp4
 ```
 
+e.g. 
+[sample video](./video.mp4 "sample video")
+
+
 ## TODO://
 
 * convert bro-log timestamps to unix timestamps
